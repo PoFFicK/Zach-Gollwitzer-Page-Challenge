@@ -1,0 +1,125 @@
+html{
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+body{
+  padding: 40px;
+  padding-top: 150px;
+}
+
+h2, h4, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+#card{
+  height:400px;
+  width: 800px;
+  box-shadow: 2px 3px 7px 1px rgba(0,0,0,0.36);
+  border-radius: 8px;
+  overflow: hidden;
+}
+#top {
+  padding: 25px;
+  width: 100%;
+  height: 45%;
+}
+
+#top h2{
+  color: #2ab2af;
+  margin-bottom: 15px;
+}
+
+#top h4{
+  color: #c0df34;
+  margin-bottom: 15px;
+}
+
+#top p{
+  color: #98a6bd;
+}
+
+#bottom{
+  color: white;
+  width:100%;
+  height:55%;
+}
+
+#bottom-left{
+  vertical-align: top;
+  display: inline-block;
+  width:50%;
+  height:100%;
+  background-color: #2ab2af;
+  padding: 25px;
+}
+
+#bottom-right{
+  display: inline-block;
+  width:50%;
+  height:100%;
+  background-color: #1ECABD;
+  padding: 25px;
+}
+
+#price {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+button {
+  color: white;
+  border: none;
+  padding:10px;
+  width: 100%;
+  border-radius:5px;
+  background-color: #c0df34;
+}
+
+button:hover{
+  cursor:pointer;
+  background-color:#a9c42d;
+  transform: scale(1.05);
+}
+
+#bottom-left h4{
+  margin-bottom: 25px;
+}
+
+#bottom-left p{
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+
+#price{
+  display: inline-block;
+}
+
+#per-month{
+  display: inline-block;
+  position: relative;
+  top: -5px;
+  font-size: 0.8rem;
+  left: 10px;
+  opacity: 0.7;
+}
+
+#price-container{
+  margin-bottom: 10px;
+}
+#bottom-right h2{
+  font-weight: 400;
+}
+ul{
+  list-style:none;
+  padding: 0;
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
